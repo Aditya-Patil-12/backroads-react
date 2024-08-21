@@ -4,8 +4,7 @@ import Title from "./Title";
 const About = () => {
   return (
     <section className="section" id="about">
-
-        <Title first={"About"} second={"us"} />
+      <Title first={"About"} second={"us"} />
 
       <div className="section-center about-center">
         <div className="about-img">
@@ -23,7 +22,12 @@ const About = () => {
             quisquam harum nam cumque temporibus explicabo dolorum sapiente odio
             unde dolor?
           </p>
-          <a href="https://www.google.com" className="btn" >
+          <a
+            href="https://www.google.com"
+            className="btn"
+            target="_blank"
+            rel="noreferrer"
+          >
             read more
           </a>
         </article>

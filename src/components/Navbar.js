@@ -18,9 +18,9 @@ const Socialcomp = (socialIcon) => {
     <li>
       <a
         href={socialIcon.href}
-        // target="_blank"
+        target="_blank"
         className="nav-icon"
-        // rel="noreferrer"
+        rel="noreferrer"
       >
         <i className={socialIcon.iconClass}></i>
       </a>
