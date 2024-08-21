@@ -23,7 +23,7 @@ const About = () => {
             quisquam harum nam cumque temporibus explicabo dolorum sapiente odio
             unde dolor?
           </p>
-          <a href="https://www.google.com" className="btn">
+          <a href="https://www.google.com" className="btn" >
             read more
           </a>
         </article>
